@@ -6,9 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".Home">
 
-    <ListView
-        android:layout_width="410dp"
-        android:layout_height="311dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="134dp" />
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="129dp"
+        android:layout_height="46dp"
+        android:text="Get"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="15dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
